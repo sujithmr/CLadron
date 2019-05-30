@@ -24,7 +24,7 @@ args = vars(ap.parse_args())
 # detect, then generate a set of bounding box colors for each class
 CLASSES = ["Royal blue",
 "Blue","Medium blue","Dark blue","Navy","Midnight blue","Gray","Dim gray","Black"]
-COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
+COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 9))
 
 # load our serialized model from disk
 print("[INFO] loading model...")
